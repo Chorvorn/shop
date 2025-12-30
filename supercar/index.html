@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+</head>
+<body>
+ <div class="navbar">
+    <div class="container">
+        <div>
+
+            <a href="" class="navbar-brand"><img src="img/Ferrari-F80-7.webp" alt=""></a>
+            <div class="logo-text">CBD</div>
+
+            
+        </div>
+
+        
+       
+        <ul class="navbar-nav">
+            <li><a href=""><i class="fa fa-home"></i></a></li>
+
+            <li class="dropdown">
+                <a href="">Services▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="bmw.html">BMW</a></li>
+                    <li><a href="Lamborghini.html">Lamborghini</a></li>
+                    <li><a href="#">McLaren</a></li>
+                    <li><a href="#">Ferrari</a></li>
+                
+
+                </ul>
+            </li>
+
+            <!-- <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li> -->
+            <div class="group-nav-icon">
+            <a href="" class="nav-icon"><i class="fa-solid fa-bell"></i></a>
+            <a href="" class="nav-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+            
+            </div>
+           
+        </ul>
+    </div>
+</div>
+
+    <main>
+        <div class="container">
+            
+ <section>
+    <div class="new-img">
+        <img id="heroImage" src="img/Ferrari-F80-7.webp" alt="">
+        <div id="heroTitle" class="body-title body-text">
+            សូមស្វាគមន៏មកកាន់ CMD ❤️
+        </div>
+        <div class="body-title">
+            <div id="heroText" class="box-title small-title">
+                រថយន្តទំនើប គឺជារថយន្តដែលត្រូវបានរចនា និងផលិតឡើងដោយប្រើប្រាស់បច្ចេកវិទ្យាថ្មីៗ...
+            </div>
+        </div>
+    </div>
+</section>
+<a href="#" id="editLink" class="nav-icon">
+    <i class="fa-solid fa-pen-to-square"></i> Edit
+</a>
+
+<section class="edit-section" id="editSection" style="display:none;">
+    <h2>កែប្រែ Content</h2>
+
+    <form id="editForm">
+        <label>ដូររូប</label>
+        <input type="file" id="imageInput" accept="image/*">
+
+        <label>ដូរ Title</label>
+        <input type="text" id="titleInput" placeholder="បញ្ចូល Title ថ្មី">
+<!-- 
+        <label>ដូរ Text</label>
+        <textarea id="textInput" rows="4" placeholder="បញ្ចូល Text ថ្មី"></textarea> -->
+
+        <button type="submit">Update</button>
+    </form>
+</section>
+<section>
+    <!-- Edit Card Button -->
+<a href="#" id="editCardLink" class="nav-icon">
+    <i class="fa-solid fa-pen-to-square"></i> Edit Cards
+</a>
+
+<!-- Edit Card Section -->
+<section class="edit-section" id="editCardSection" style="display:none;">
+    <h2>កែប្រែ Card</h2>
+    <form id="editCardForm">
+        <label>ជ្រើស Card</label>
+        <select id="cardSelect">
+        <option value="0">Card 1</option>
+        <option value="1">Card 2</option>
+        <option value="2">Card 3</option>
+        <option value="3">Card 4</option>
+        <option value="4">Card 5</option>
+        <option value="5">Card 6</option>
+        <option value="6">Card 7</option>
+        <option value="7">Card 8</option>
+        <option value="8">Card 9</option>
+        <option value="9">Card 10</option>
+        <option value="10">Card 11</option>
+        <option value="11">Card 12</option>
+        <option value="12">Card 13</option>
+        <option value="13">Card 14</option>
+        <option value="14">Card 15</option>
+        <option value="15">Card 16</option>
+        <option value="16">Card 17</option>
+        <option value="17">Card 18</option>
+        
+            <!-- បន្ថែម card បន្ថែម -->
+        </select>
+
+        <label>ដូររូប</label>
+        <input type="file" id="cardImageInput" accept="image/*">
+
+        <label>ដូរ Title</label>
+        <input type="text" id="cardTitleInput" placeholder="បញ្ចូល Title ថ្មី">
+
+        <label>ដូរ Text</label>
+        <textarea id="cardTextInput" rows="3" placeholder="បញ្ចូល Text ថ្មី"></textarea>
+
+        <button type="submit">Update Card</button>
+    </form>
+</section>
+
+</section>
+
+                <div class="main-title">
+                <h1 class="title">SUPPER CARE 2026</h1>
+            </div>
+            </section>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/01_Best-Supercars.webp" alt=""></div>
+                        <div class="card-group-title"> 
+                             <div class="card-title-button">
+                                     <h1 class="card-title">Luxury Supercar</h1>
+                                     <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                        
+                                     </div>
+                                </div>
+                                <div class="card-space">
+                                    <div class="card-number">1</div>
+                                     <div>
+                                        <button class="btn" onclick="openOrder('Luxury Supercar','25000$','1')">ទិញឥឡូវ</button>
+                                    <i class="fa-solid fa-cart-shopping"></i>
+
+                                     </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/514c453f-bdd2-4068-b88f-7d0fa4579290.jpg" alt=""></div>
+                        <div class="card-group-title"> 
+                            <div class="card-title-button">
+                                     <h1 class="card-title">Luxury Supercar</h1>
+                                     <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                    
+                                     </div>
+                                </div>
+                             <div class="card-space">
+                                    <div class="card-number">2</div>
+                                    <div>
+                                        <button class="btn"onclick="openOrder('Luxury Supercar','25000$','2')">ទិញឥឡូវ</button>
+                                     <i class="fa-solid fa-cart-shopping"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/9377c752-342c-4a25-94a4-f2846067d1f3-McLaren-Artura-(Compressify.io).webp" alt=""></div>
+                        <div class="card-group-title"> 
+                            <div class="card-title-button">
+                                     <h1 class="card-title">Luxury Supercar</h1>
+                                      <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                </div>
+                             <div class="card-space">
+                                    <div class="card-number">3</div>
+                                    <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/01_Best-Supercars.webp" alt=""></div>
+                        <div class="card-group-title"> 
+                             <div class="card-title-button">
+                                     <h1 class="card-title">Luxury Supercar</h1>
+                                     <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                </div>
+                            <div class="card-space">
+                                    <div class="card-number">4</div>
+                                    <button class="btn">ទិញឥឡូវ</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/514c453f-bdd2-4068-b88f-7d0fa4579290.jpg" alt=""></div>
+                        <div class="card-group-title"> 
+                            <div class="card-title-button">
+                                     <h1 class="card-title">Luxury Supercar</h1>
+                                     <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                </div>
+                             <div class="card-space">
+                                    <div class="card-number">5</div>
+                                    <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/9377c752-342c-4a25-94a4-f2846067d1f3-McLaren-Artura-(Compressify.io).webp" alt=""></div>
+                        <div class="card-group-title"> 
+                            <div class="card-title-button">
+                                     <h1 class="card-title">Luxury Supercar</h1>
+                                      <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                </div>
+                            <div class="card-space">
+                                    <div class="card-number">6</div>
+                                    <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <div class="main-title">
+                <h1 class="title">SUPPER CARE 2025</h1>
+            </div>
+            </section>
+            <section>
+                 <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/adrian-newell-TO2HnuoQIjs-unsplash-scaled.jpg" alt=""></div>
+                        <div class="card-group-title"> 
+                             <div class="card-title-button">
+                                     <h1 class="card-title">BMW</h1>
+                                     <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                    
+                                </div>
+                            <div class="card-space">
+                                    <div class="card-number">7</div>
+                                    <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/download.jpg" alt=""></div>
+                        <div class="card-group-title"> 
+                            <div class="card-title-button">
+                                     <h1 class="card-title">Luxury Supercar</h1>
+                                     <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                </div>
+                             <div class="card-space">
+                                    <div class="card-number">8</div>
+                                    <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/Ferrari-F80-7.webp" alt=""></div>
+                        <div class="card-group-title"> 
+                            <div class="card-title-button">
+                                     <h1 class="card-title">Ferrari-F80</h1>
+                                      <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                </div>
+                             <div class="card-space">
+                                    <div class="card-number">9</div>
+                                    <button class="btn"
+ onclick="openOrder('Ferrari-F80','25000$','9')">
+ ទិញឥឡូវ
+</button>
+
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/adrian-newell-TO2HnuoQIjs-unsplash-scaled.jpg" alt=""></div>
+                        <div class="card-group-title"> 
+                             <div class="card-title-button">
+                                     <h1 class="card-title">BMW</h1>
+                                     <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                    
+                                </div>
+                              <div class="card-space">
+                                   <div class="card-number ">10</div>
+                                   <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/download.jpg" alt=""></div>
+                        <div class="card-group-title"> 
+                            <div class="card-title-button">
+                                     <h1 class="card-title">Luxury Supercar</h1>
+                                     <div class="">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                </div>
+                              <div class="card-space">
+                                   <div class="card-number ">11</div>
+                                    <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/Ferrari-F80-7.webp" alt=""></div>
+                        <div class="card-group-title"> 
+                            <div class="card-title-button">
+                                     <h1 class="card-title">Ferrari-F80</h1>
+                                      <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                </div>
+                              <div class="card-space">
+                                    <div class="card-number ">12</div>
+                                    <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <section>
+                <div class="main-title">
+                <h1 class="title">មកមេីលរថយន្ដទំនេីបៗ</h1>
+            </div>
+            </section>
+            <section>
+                <section>
+                 <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/lamborghini-aventador-roadster-SV.png" alt=""></div>
+                        <div class="card-group-title"> 
+                             <div class="card-title-button">
+                                     <h1 class="card-title">lamborghini</h1>
+                                     <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                </div>
+                             <div class="card-space">
+                                    <div class="card-number ">13</div>
+                                    <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/mclaren-autocar-render-2023_0.jpg" alt=""></div>
+                        <div class="card-group-title">
+                             <div class="card-title-button">
+                                     <h1 class="card-title">mclaren-autocar</h1>
+                                      <div class="">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                </div> 
+                              <div class="card-space">
+                                    <div class="card-number">14</div>
+                                    <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/McLaren-W1-10.webp" alt=""></div>
+                        <div class="card-group-title"> 
+                            <div class="card-title-button">
+                                     <h1 class="card-title">McLaren-W1</h1>
+                                      <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                </div> 
+                              <div class="card-space">
+                                    <div class="card-number ">15</div>
+                                   <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/the-new-mclaren-w1-2025-is-a-true-supercar-replacing-the-p1-and-f1-7.jpg" alt=""></div>
+                        <div class="card-group-title"> 
+                            <div class="card-title-button">
+                                     <h1 class="card-title">New-Mclaren</h1>
+                                     <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                </div> 
+                              <div class="card-space">
+                                    <div class="card-number ">16</div>
+                                    <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/1100xxs.webp" alt=""></div>
+                        <div class="card-group-title"> 
+                              <div class="card-title-button">
+                                     <h1 class="card-title">McLaren-2022</h1>
+                                     <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                         <i class="fa-solid fa-cart-shopping"></i>
+                                     </div>
+                                </div> 
+                             <div class="card-space">
+                                    <div class="card-number ">17</div>
+                                    <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col">
+                    <div class="card">
+                        <div class="card-img"> <img src="img/01_Best-Supercars.webp" alt=""></div>
+                        <div class="card-group-title"> 
+                             <div class="card-title-button">
+                                     <h1 class="card-title">Best-Supercars</h1>
+                                      <div class="card-display">
+                                         <p class="card-text">25000$</p>
+                                     </div>
+                                </div> 
+                              <div class="card-space">
+                                    <div class="card-number ">18</div>
+                                    <div>
+                                        <button class="btn" onclick="openOrder()">ទិញឥឡូវ</button>
+
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            </section>
+            <section>
+                <section class="swiper-section">
+    <div class="container">
+        <h1 class="title">FEATURED SUPERCARS</h1>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <img src="img/Ferrari-F80-7.webp" alt="">
+                    <div class="slide-caption">Ferrari F80</div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/lamborghini-aventador-roadster-SV.png" alt="">
+                    <div class="slide-caption">Lamborghini Aventador</div>
+                </div>
+
+                 <div class="swiper-slide">
+                    <img src="img/1100xxs (1).webp" alt="">
+                    <div class="slide-caption">Lamborghini Aventador</div>
+                </div>
+
+                 <div class="swiper-slide">
+                    <img src="img/1100xxs (2).webp" alt="">
+                    <div class="slide-caption">Lamborghini Aventador</div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/McLaren-W1-10.webp" alt="">
+                    <div class="slide-caption">McLaren W1</div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="img/01_Best-Supercars.webp" alt="">
+                    <div class="slide-caption">Luxury Supercar</div>
+                </div>
+
+            </div>
+
+            <!-- Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+            </section>
+            
+        </div>
+​​​​<!-- ORDER MODAL -->
+<div id="orderModal" style="display:none; position:fixed; inset:0; background:#000000aa; z-index:999;">
+  <div style="background:#fff; color:#000; width:350px; margin:80px auto; padding:20px; border-radius:10px;">
+    
+    <h3>បញ្ជាទិញ</h3>
+
+    <form id="orderForm">
+      <input type="text" id="cusName" placeholder="ឈ្មោះ" required><br><br>
+      <input type="tel" id="cusPhone" placeholder="លេខទូរស័ព្ទ" required><br><br>
+      <input type="text" id="cusAddress" placeholder="ទីតាំង" required>
+
+      <p><b>សូម Scan QR ដើម្បីបង់ប្រាក់</b></p>
+      <img src="img/photo_2025-12-27_09-34-48.jpg" style="width:30%; height:90px;"> <br>
+      <button type="submit"  >បញ្ជាក់ការបញ្ជាទិញ</button >
+      <button type="button" onclick="closeOrder()">បិទ</button>
+    </form>
+  </div>
+</div>
+
+    </main>
+    
+    <footer class="footer">
+    <div class="container footer-grid">
+        
+        <!-- Logo & About -->
+        <div class="footer-col">
+            <h2 class="footer-logo">CMD</h2>
+            <p class="footer-text">
+                CMD គឺជា Website បង្ហាញអំពីរថយន្តទំនើប Supercar 
+                ដែលរួមបញ្ចូលបច្ចេកវិទ្យា និងការរចនាថ្មីៗ។
+            </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">ទំព័រដើម</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-col">
+            <h3>Brands</h3>
+            <ul>
+                <li><a href="#">Ferrari</a></li>
+                <li><a href="#">Lamborghini</a></li>
+                <li><a href="#">McLaren</a></li>
+                <li><a href="#">BMW</a></li>
+            </ul>
+        </div>
+
+        <!-- Social -->
+        <div class="footer-col">
+            <h3>Follow Us</h3>
+            <div class="footer-social">
+                <a href="https://web.facebook.com/settings/?tab=linked_whatsapp&referrer=comet_pro_mode_setting"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 CMD Supercar. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+<script>
+var swiper = new Swiper(".mySwiper", {
+    loop: true,
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+    },
+});
+</script>
+
+<script>
+const form = document.getElementById("editForm");
+const imageInput = document.getElementById("imageInput");
+const titleInput = document.getElementById("titleInput");
+const textInput = document.getElementById("textInput");
+
+const heroImage = document.getElementById("heroImage");
+const heroTitle = document.getElementById("heroTitle");
+const heroText = document.getElementById("heroText");
+
+/* ===== LOAD DATA ===== */
+window.onload = () => {
+    if (localStorage.getItem("heroImage")) {
+        heroImage.src = localStorage.getItem("heroImage");
+    }
+    if (localStorage.getItem("heroTitle")) {
+        heroTitle.innerText = localStorage.getItem("heroTitle");
+    }
+    if (localStorage.getItem("heroText")) {
+        heroText.innerText = localStorage.getItem("heroText");
+    }
+};
+
+/* ===== CHANGE IMAGE ===== */
+imageInput.addEventListener("change", function () {
+    const file = this.files[0];
+    if (file) {
+        const reader = new FileReader();
+        reader.onload = e => {
+            heroImage.src = e.target.result;
+            localStorage.setItem("heroImage", e.target.result);
+        };
+        reader.readAsDataURL(file);
+    }
+});
+
+/* ===== SAVE TITLE & TEXT ===== */
+form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    if (titleInput.value) {
+        heroTitle.innerText = titleInput.value;
+        localStorage.setItem("heroTitle", titleInput.value);
+    }
+
+    if (textInput.value) {
+        heroText.innerText = textInput.value;
+        localStorage.setItem("heroText", textInput.value);
+    }
+
+    alert("Save បានជោគជ័យ ✅");
+});
+</script>
+
+
+
+<script>
+    const editCardLink = document.getElementById("editCardLink");
+const editCardSection = document.getElementById("editCardSection");
+const editCardForm = document.getElementById("editCardForm");
+
+const editLink = document.getElementById("editLink");
+const editSection = document.getElementById("editSection");
+
+const PASSWORD = "1111"; 
+
+editLink.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const userPass = prompt("សូមបញ្ចូល Password ដើម្បី Edit");
+
+    if (userPass === PASSWORD) {
+        editSection.style.display = "block";
+        alert("ចូល Edit បានជោគជ័យ ✅");
+    } else {
+        alert("Password មិនត្រឹមត្រូវ ❌");
+    }
+});
+
+
+const cardSelect = document.getElementById("cardSelect");
+const cardImageInput = document.getElementById("cardImageInput");
+const cardTitleInput = document.getElementById("cardTitleInput");
+const cardTextInput = document.getElementById("cardTextInput");
+
+const cards = document.querySelectorAll(".card");
+
+// Show edit section only after correct password
+editCardLink.addEventListener("click", e => {
+    e.preventDefault();
+    const userPass = prompt("សូមបញ្ចូល Password ដើម្បី Edit Card");
+    if(userPass === PASSWORD){
+        editCardSection.style.display = "block";
+        alert("ចូល Edit Card បានជោគជ័យ ✅");
+        loadCardData(cardSelect.value);
+    } else {
+        alert("Password មិនត្រឹមត្រូវ ❌");
+    }
+});
+
+// Load card data to input fields
+function loadCardData(index){
+    const card = cards[index];
+    cardTitleInput.value = card.querySelector(".card-title").innerText;
+    cardTextInput.value = card.querySelector(".card-text").innerText;
+}
+
+// Change select to load different card
+cardSelect.addEventListener("change", () => {
+    loadCardData(cardSelect.value);
+});
+
+// Handle image change
+cardImageInput.addEventListener("change", () => {
+    const index = cardSelect.value;
+    const file = cardImageInput.files[0];
+    if(file){
+        const reader = new FileReader();
+        reader.onload = e => {
+            cards[index].querySelector(".card-img img").src = e.target.result;
+            saveCard(index);
+        };
+        reader.readAsDataURL(file);
+    }
+});
+
+// Handle form submit
+editCardForm.addEventListener("submit", e => {
+    e.preventDefault();
+    const index = cardSelect.value;
+    cards[index].querySelector(".card-title").innerText = cardTitleInput.value;
+    cards[index].querySelector(".card-text").innerText = cardTextInput.value;
+
+    saveCard(index);
+    alert("Save Card បានជោគជ័យ ✅");
+});
+
+// Save card data to localStorage
+function saveCard(index){
+    const card = cards[index];
+    const data = {
+        img: card.querySelector(".card-img img").src,
+        title: card.querySelector(".card-title").innerText,
+        text: card.querySelector(".card-text").innerText
+    
+    };
+    localStorage.setItem("card" + index, JSON.stringify(data));
+}
+
+// Load saved card data on page load
+window.addEventListener("load", () => {
+    cards.forEach((card, index) => {
+        const saved = JSON.parse(localStorage.getItem("card" + index));
+        if(saved){
+            card.querySelector(".card-img img").src = saved.img;
+            card.querySelector(".card-title").innerText = saved.title;
+            card.querySelector(".card-text").innerText = saved.text;
+        }
+    });
+});
+
+</script>
+<script>
+function openOrder(){
+  document.getElementById("orderModal").style.display = "block";
+}
+
+
+</script>
+  <script>
+function openOrder(name, price, code){
+  selectedProduct.name = name;
+  selectedProduct.price = price;
+  selectedProduct.code = code;
+
+  document.getElementById("orderModal").style.display = "block";
+}
+
+function closeOrder(){
+  document.getElementById("orderModal").style.display = "none";
+}
+</script>
+
+<script>
+const BOT_TOKEN = "8027066377:AAFMrenDmZQYZoNL2DqQJd7CDNXGE9u6fYY";
+const CHAT_ID = "1945848952";
+
+const orderForm = document.getElementById("orderForm");
+const cusName = document.getElementById("cusName");
+const cusPhone = document.getElementById("cusPhone");
+const cusAddress = document.getElementById("cusAddress");
+
+orderForm.addEventListener("submit", function(e){
+  e.preventDefault();
+
+ const message =
+`📦 ការបញ្ជាទិញថ្មី
+🚗 រថយន្ត: ${selectedProduct.name}
+💰 តម្លៃ: ${selectedProduct.price}
+🔢 លេខ Card: ${selectedProduct.code}
+
+👤 ឈ្មោះ: ${cusName.value}
+📞 ទូរស័ព្ទ: ${cusPhone.value}
+📍 ទីតាំង: ${cusAddress.value}`;
+
+
+  fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      chat_id: CHAT_ID,
+      text: message
+    })
+  })
+  .then(res => res.json())
+  .then(data => {
+    if(data.ok){
+      alert("បញ្ជាទិញជោគជ័យ ✅\nសារបានផ្ញើទៅ Telegram");
+      closeOrder();
+      orderForm.reset();
+    } else {
+      alert("Telegram Error ❌");
+      console.log(data);
+    }
+  })
+  .catch(err => {
+    alert("Network Error ❌");
+    console.error(err);
+  });
+});
+</script>
+
+<script>
+let selectedProduct = {
+  name: "",
+  price: "",
+  code: ""
+};
+</script>
+</html>
